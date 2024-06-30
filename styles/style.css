@@ -108,6 +108,7 @@ body {
 }
 .laptop__img{
     position: absolute;
+    background-repeat: no-repeat;
     top: -450px; 
     width: 746.63px;
     height: 440.87px;
@@ -129,7 +130,7 @@ body {
     font-size: 45px;
     font-weight: 600;
     line-height: 67.5px;
-    width: 600px;
+    width: 524px;
     color: rgba(2, 18, 6, 1);
 }
 .desc__item{
@@ -141,6 +142,7 @@ body {
 }
 .software__solution {
     margin-top: 100px;
+    margin-left: 150px;
 }
 .card{
     width: 584px;
@@ -250,6 +252,8 @@ body {
 }
 .analysis__list{
     list-style-image: url(../images/icon.svg);
+    padding-left: 20px;
+    margin: 0;
 }
 .software__button{
     background: #F44545;
@@ -262,6 +266,35 @@ body {
     line-height: 32px;
     cursor: pointer;
 }
-.description {
-    margin-left: 150px;
+.analysis {
+    margin-left: 230px;
+    margin-top: 100px;
+}
+.graphics__img {
+    position: absolute;
+    background-repeat: no-repeat;
+    /* top: 1601px; */
+    left: 660px;
+    /* width: 694.96px;
+    height: 563.96px; */
+    top: 1630px;
+}
+.safety {
+    position: relative;
+    margin-top: 300px;
+    width: 499px;
+    height: 545px;
+    margin-left: 815px;
+}
+.graphics__img2 {
+    position: absolute;
+    bottom: -120px;
+    right: 430px;
+    background-repeat: no-repeat;
+}
+.software {
+    background-color: rgba(142, 230, 201, 0.2);
+    /* width: 1600px; */
+    height: 643px;
+    /* top: 3024px; */
 }
